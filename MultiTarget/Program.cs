@@ -7,8 +7,7 @@ Console.WriteLine("Hello, World!");
 
 //ClassCore.Func();
 
-
-Assembly assembly = Assembly.LoadFrom(@"C:\git\MultiTarget\CoreFunc\bin\x86\Debug\net6.0\CoreFunc.dll");
+Assembly assembly = Assembly.LoadFrom(@"C:\git\multitarget_gh\CoreFunc\bin\Debug\net6.0\CoreFunc.dll");
 Type typeToExecute = assembly.GetType("CoreFunc.ClassCore");
 
 
